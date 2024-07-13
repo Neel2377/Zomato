@@ -1,0 +1,94 @@
+ /* Write all styles here  */
+@media only screen and (max-width: 800px) {
+    /* Medium Screen  */
+}
+
+@media only screen and (max-width: 500px) {
+    /* Small Screen  */
+}
+
+nav{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-color: 2px black;
+    color: rgb(255, 34, 78);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navitem{
+  display: flex;
+  gap: 150px;
+  color: blue;
+}
+
+button{
+  padding: 0.3%;
+  font-size: large;
+  background-color: rgb(255, 34, 78);
+  color: rgb(255, 255, 255);
+}
+
+.orderitems{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 20px;
+}
+
+.ourproducts{
+  margin-left: 248px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  gap: 25px;
+  padding: 20px;
+  height: fit-content;
+  
+}
+
+.box{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+
+.box h3 {
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+}
+
+.box a {
+  display: block;
+  padding: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.box a:hover {
+  text-decoration: underline;
+}
+
+.howitworks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 80%;
+  margin-left: 168px;
+}
+
+.step{
+  text-align: center;
+  margin-left: 10px;
+}
